@@ -13,3 +13,7 @@ def goodbye_world():
 @app.route("/newworld")
 def new_world():
     return "<p>Hello, New World!</p>"
+
+@app.route("/oldworld")
+def old_world():
+    return "<p>Hello, Old World!</p>"
